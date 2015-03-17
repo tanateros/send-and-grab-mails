@@ -1,0 +1,19 @@
+form .ng-dirty.ng-invalid{
+  border: 1px solid #FD0000;
+}
+#stop{
+	display: none;
+}
+body{
+	background-color:#ffffff;
+	background-image:url(/images/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:0px;
+}
+label {
+    color: #fff;
+}
+.container {
+    padding: 15px 0;
+}
