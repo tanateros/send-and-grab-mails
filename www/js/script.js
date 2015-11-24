@@ -4,7 +4,7 @@ var app = angular.module('test-app', []);
 
 app.controller('ctrlForm',function($scope, $http, $templateCache) {
 	var method = 'POST';
-	var url = 'send/ajax';
+	var url = 'index.php/ajax';
 	$scope.codeStatus = "";
 	
     $scope.submit = function() {

@@ -4,23 +4,23 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="http://<?=base_url();?>images/favicon.ico" />
+	<link rel="icon" type="image/png" href="images/favicon.ico" />
 	<title>Email Sender from Tanateros (c)</title>
 <!--
 	<link rel="stylesheet" href="/css/jquery-ui.css">
 	<link rel="stylesheet" href="/css/jquery-ui.structure.min.css">
 -->
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
-	<script src="/js/script.js"></script>
-	<script src="/js/ckeditor/ckeditor.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/ckeditor/ckeditor.js"></script>
 <!--
-	<script src="/js/jquery-1.11.0.min.js"></script>
-	<script src="/js/jquery-ui.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
 -->
   </head>
   <body>
@@ -28,7 +28,7 @@
 		<div ng-app="test-app">
 		  <form action="" ng-controller="ctrlForm" name="form" ng-submit="submit()">
 			<div class="form-group">
-				<label><a href="/grabber">Собрать почтовую базу</a></label>
+				<label><a href="index.php/grabber">Собрать почтовую базу</a></label>
 			</div>
 			<div class="form-group">
 				<label>Тема письма:</label>
@@ -91,7 +91,7 @@
 		</script>
     </div> 	
 <!--
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 -->
   </body>
 </html>

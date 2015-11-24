@@ -17,3 +17,7 @@ label {
 .container {
     padding: 15px 0;
 }
+
+#parallax_0 *{
+	background: #555;
+}
